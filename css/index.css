@@ -21,6 +21,7 @@ header {
 
 .menu li {
   display: inline-block;
+  text-align: center;
 }
 
 .menu a {
@@ -28,12 +29,45 @@ header {
   text-decoration: none;
   padding: 15px;
   font-family:Verdana;
-
   font-size: 25px;
 }
-h1 {
+.titulo-leo{
   color: white;
   font-family:Tahoma;
   font-size: 35px;
-  
+  /*position: relative; */
+  left: 10px;  
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  font-family:'Trebuchet MS';
+}
+{}
+.infancia-img{
+  float: inline-start;
+  /* position: absolute; */
+  left: 15px;
+  top: 200px;
+}
+
+.gif{
+  display: block;
+  float:right;
+  /* position: absolute; */
+  left: 950px;
+  top: 200px;
+}
+
+.footer{
+  background-color: black;
+  color: #ffffff;
+  height: 100px;
+  text-align: center;
+  position: relative;
+  top: 1000px;
+}
+.contenedor{
+  display: block;
 }
